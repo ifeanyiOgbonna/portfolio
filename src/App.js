@@ -1,5 +1,4 @@
 import './App.css';
-import { Link } from "react-router-dom";
 
 
 function App() {
@@ -23,16 +22,16 @@ function App() {
           <h3>Frontend Developer</h3>
           <p>"I'm a frontend developer, which means I specialize in creating the visual and interactive elements of websites or applications. I work with HTML, CSS, and JavaScript to build user interfaces that are engaging, intuitive, and responsive."</p>
           <div className='btn-box'>
-            <Link to="ogbonna.ifybest@gmail.com">Hire Me</Link>
-            <a href="ogbonna.ifybest@gmail.com">Let's Talk</a>
+            <a href="mailto:ogbonna.ifybest@gmail.com">Hire Me</a>
+            <a href="mailto:ogbonna.ifybest@gmail.com">Let's Talk</a>
           </div>
         </div>
         <div className='home-sci'>
-          <a href="https://www.linkedin.com/feed/update/urn:li:activity:7058184034132123648/"><i class='bx bxl-linkedin'></i></a>
-          <a href="https://twitter.com/IfeanyiIfybest/status/1652052332715077633"><i class='bx bxl-twitter' ></i></a>
-          <a href="https://medium.com/@ogbonna.ifybest/how-i-made-the-calculator-website-377d5b97910a"><i class='bx bxl-medium' ></i></a>
+        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7058184034132123648/"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://twitter.com/IfeanyiIfybest/status/1652052332715077633"><i class='bx bxl-twitter' ></i></a>
+        <a href="https://medium.com/@ogbonna.ifybest/how-i-made-the-calculator-website-377d5b97910a"><i class='bx bxl-medium' ></i></a>
         </div>
-
+        
       </section>
     </>
   );
